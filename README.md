@@ -12,3 +12,4 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 | 310 | [Minimum Height Trees](310_minimum_height_trees/) | Leaf trimming / BFS | O(n) | O(n) |
 | 438 | [Find All Anagrams in a String](432_find_all_anagrams_in_a_string/) | Sliding window | O(n) | O(1) |
 | 62 | [Unique Paths](62_unique_paths/) | Dynamic programming (bottom-up) | O(m×n) | O(m×n) |
+| 322 | [Coin Change](322_coin_change/) | Dynamic programming (tabulation) | O(n×m) | O(n) |
