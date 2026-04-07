@@ -15,3 +15,4 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 | 322 | [Coin Change](322_coin_change/) | Dynamic programming (tabulation) | O(n×m) | O(n) |
 | 70 | [Climbing Stairs](70_climbing_stairs/) | Dynamic programming (Fibonacci) | O(n) | O(n) |
 | 199 | [Binary Tree Right Side View](199_binary_tree_right_side_view/) | BFS level order | O(n) | O(n) |
+| 200 | [Number of Islands](200_number_of_islands/) | DFS flood fill | O(m×n) | O(m×n) |
