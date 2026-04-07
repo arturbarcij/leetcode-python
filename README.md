@@ -13,3 +13,4 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 | 438 | [Find All Anagrams in a String](432_find_all_anagrams_in_a_string/) | Sliding window | O(n) | O(1) |
 | 62 | [Unique Paths](62_unique_paths/) | Dynamic programming (bottom-up) | O(m×n) | O(m×n) |
 | 322 | [Coin Change](322_coin_change/) | Dynamic programming (tabulation) | O(n×m) | O(n) |
+| 70 | [Climbing Stairs](70_climbing_stairs/) | Dynamic programming (Fibonacci) | O(n) | O(n) |
