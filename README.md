@@ -17,3 +17,4 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 | 199 | [Binary Tree Right Side View](199_binary_tree_right_side_view/) | BFS level order | O(n) | O(n) |
 | 200 | [Number of Islands](200_number_of_islands/) | DFS flood fill | O(m×n) | O(m×n) |
 | 206 | [Reverse Linked List](206_reverse_linked_list/) | Iterative three pointers | O(n) | O(1) |
+| 217 | [Contains Duplicate](217_contains_duplicate/) | Hash set | O(n) | O(n) |
