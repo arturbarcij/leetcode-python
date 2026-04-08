@@ -18,4 +18,5 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 | 200 | [Number of Islands](200_number_of_islands/) | DFS flood fill | O(m×n) | O(m×n) |
 | 206 | [Reverse Linked List](206_reverse_linked_list/) | Iterative three pointers | O(n) | O(1) |
 | 217 | [Contains Duplicate](217_contains_duplicate/) | Hash set | O(n) | O(n) |
+| 75 | [Sort Colors](75_sort_colours/) | Dutch National Flag (3 pointers) | O(n) | O(1) |
 | 1235 | [Maximum Profit in Job Scheduling](1235_maximum_profit_in_job_scheduling/) | DP + Binary search | O(n log n) | O(n) |
