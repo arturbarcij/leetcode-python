@@ -4,14 +4,14 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 
 ## Progress
 
-![Easy](https://img.shields.io/badge/Easy-3-brightgreen) ![Medium](https://img.shields.io/badge/Medium-11-yellow) ![Hard](https://img.shields.io/badge/Hard-2-red)
+![Easy](https://img.shields.io/badge/Easy-3-brightgreen) ![Medium](https://img.shields.io/badge/Medium-12-yellow) ![Hard](https://img.shields.io/badge/Hard-2-red)
 
 | Difficulty | Count |
 |------------|-------|
 | Easy       | 3     |
-| Medium     | 11    |
+| Medium     | 12    |
 | Hard       | 2     |
-| **Total**  | **16** |
+| **Total**  | **17** |
 
 ## Problems
 
@@ -24,6 +24,7 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 | 70 | [Climbing Stairs](70_climbing_stairs/) | Easy | Dynamic programming (Fibonacci) | O(n) | O(n) |
 | 75 | [Sort Colors](75_sort_colours/) | Medium | Dutch National Flag (3 pointers) | O(n) | O(1) |
 | 78 | [Subsets](78_subsets/) | Medium | Backtracking | O(2^n) | O(n) |
+| 79 | [Word Search](79_word_search/) | Medium | DFS + Backtracking | O(m×n×4^L) | O(L) |
 | 76 | [Minimum Window Substring](76_minimum_window_substring/) | Hard | Variable sliding window | O(n) | O(n) |
 | 199 | [Binary Tree Right Side View](199_binary_tree_right_side_view/) | Medium | BFS level order | O(n) | O(n) |
 | 200 | [Number of Islands](200_number_of_islands/) | Medium | DFS flood fill | O(m×n) | O(m×n) |
