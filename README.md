@@ -4,14 +4,14 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 
 ## Progress
 
-![Easy](https://img.shields.io/badge/Easy-3-brightgreen) ![Medium](https://img.shields.io/badge/Medium-15-yellow) ![Hard](https://img.shields.io/badge/Hard-2-red)
+![Easy](https://img.shields.io/badge/Easy-3-brightgreen) ![Medium](https://img.shields.io/badge/Medium-15-yellow) ![Hard](https://img.shields.io/badge/Hard-3-red)
 
 | Difficulty | Count |
 |------------|-------|
 | Easy       | 3     |
 | Medium     | 15    |
-| Hard       | 2     |
-| **Total**  | **20** |
+| Hard       | 3     |
+| **Total**  | **21** |
 
 ## Problems
 
@@ -26,6 +26,7 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 | 76 | [Minimum Window Substring](76_minimum_window_substring/) | Hard | Variable sliding window | O(n) | O(n) |
 | 78 | [Subsets](78_subsets/) | Medium | Backtracking | O(2^n) | O(n) |
 | 79 | [Word Search](79_word_search/) | Medium | DFS + Backtracking | O(m×n×4^L) | O(L) |
+| 84 | [Largest Rectangle in Histogram](84_largest_rectangle_in_histogram/) | Hard | Monotonic stack | O(n) | O(n) |
 | 199 | [Binary Tree Right Side View](199_binary_tree_right_side_view/) | Medium | BFS level order | O(n) | O(n) |
 | 200 | [Number of Islands](200_number_of_islands/) | Medium | DFS flood fill | O(m×n) | O(m×n) |
 | 206 | [Reverse Linked List](206_reverse_linked_list/) | Easy | Iterative three pointers | O(n) | O(1) |
