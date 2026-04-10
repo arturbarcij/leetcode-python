@@ -4,14 +4,14 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 
 ## Progress
 
-![Easy](https://img.shields.io/badge/Easy-3-brightgreen) ![Medium](https://img.shields.io/badge/Medium-14-yellow) ![Hard](https://img.shields.io/badge/Hard-2-red)
+![Easy](https://img.shields.io/badge/Easy-3-brightgreen) ![Medium](https://img.shields.io/badge/Medium-15-yellow) ![Hard](https://img.shields.io/badge/Hard-2-red)
 
 | Difficulty | Count |
 |------------|-------|
 | Easy       | 3     |
-| Medium     | 14    |
+| Medium     | 15    |
 | Hard       | 2     |
-| **Total**  | **19** |
+| **Total**  | **20** |
 
 ## Problems
 
@@ -35,4 +35,5 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 | 310 | [Minimum Height Trees](310_minimum_height_trees/) | Medium | Leaf trimming / BFS | O(n) | O(n) |
 | 322 | [Coin Change](322_coin_change/) | Medium | Dynamic programming (tabulation) | O(n×m) | O(n) |
 | 438 | [Find All Anagrams in a String](432_find_all_anagrams_in_a_string/) | Medium | Sliding window | O(n) | O(1) |
+| 721 | [Accounts Merge](721_accounts_merge/) | Medium | Union-Find (DSU) | O(n log n) | O(n) |
 | 1235 | [Maximum Profit in Job Scheduling](1235_maximum_profit_in_job_scheduling/) | Hard | DP + Binary search | O(n log n) | O(n) |
