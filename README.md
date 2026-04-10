@@ -4,14 +4,14 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 
 ## Progress
 
-![Easy](https://img.shields.io/badge/Easy-5-brightgreen) ![Medium](https://img.shields.io/badge/Medium-17-yellow) ![Hard](https://img.shields.io/badge/Hard-4-red)
+![Easy](https://img.shields.io/badge/Easy-5-brightgreen) ![Medium](https://img.shields.io/badge/Medium-18-yellow) ![Hard](https://img.shields.io/badge/Hard-4-red)
 
 | Difficulty | Count |
 |------------|-------|
 | Easy       | 5     |
-| Medium     | 17    |
+| Medium     | 18    |
 | Hard       | 4     |
-| **Total**  | **26** |
+| **Total**  | **27** |
 
 ## Problems
 
@@ -37,6 +37,7 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 | 217 | [Contains Duplicate](217_contains_duplicate/) | Easy | Hash set | O(n) | O(n) |
 | 224 | [Basic Calculator](224_basic_calculator/) | Hard | Stack + sign tracking | O(n) | O(n) |
 | 226 | [Invert Binary Tree](226_invert_binary_tree/) | Easy | DFS recursion | O(n) | O(n) |
+| 230 | [Kth Smallest Element in BST](230_kth_smallest_element_in_bst/) | Medium | In-order traversal | O(n) | O(n) |
 | 310 | [Minimum Height Trees](310_minimum_height_trees/) | Medium | Leaf trimming / BFS | O(n) | O(n) |
 | 322 | [Coin Change](322_coin_change/) | Medium | Dynamic programming (tabulation) | O(n×m) | O(n) |
 | 438 | [Find All Anagrams in a String](432_find_all_anagrams_in_a_string/) | Medium | Sliding window | O(n) | O(1) |
