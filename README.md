@@ -4,14 +4,14 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 
 ## Progress
 
-![Easy](https://img.shields.io/badge/Easy-6-brightgreen) ![Medium](https://img.shields.io/badge/Medium-18-yellow) ![Hard](https://img.shields.io/badge/Hard-4-red)
+![Easy](https://img.shields.io/badge/Easy-6-brightgreen) ![Medium](https://img.shields.io/badge/Medium-19-yellow) ![Hard](https://img.shields.io/badge/Hard-4-red)
 
 | Difficulty | Count |
 |------------|-------|
 | Easy       | 6     |
-| Medium     | 18    |
+| Medium     | 19    |
 | Hard       | 4     |
-| **Total**  | **28** |
+| **Total**  | **29** |
 
 ## Problems
 
@@ -30,6 +30,7 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 | 98 | [Validate Binary Search Tree](98_validate_binary_search_tree/) | Medium | DFS with bounds | O(n) | O(n) |
 | 102 | [Binary Tree Level Order Traversal](102_binary_tree_level_order_traversal/) | Medium | BFS level order | O(n) | O(n) |
 | 104 | [Maximum Depth of Binary Tree](104_maximum_depth_of_binary_tree/) | Easy | DFS recursion | O(n) | O(n) |
+| 105 | [Construct Binary Tree from Preorder and Inorder](105_construct_binary_tree_from_preorder_and_inorder_traversal/) | Medium | Divide and conquer | O(n) | O(n) |
 | 199 | [Binary Tree Right Side View](199_binary_tree_right_side_view/) | Medium | BFS level order | O(n) | O(n) |
 | 200 | [Number of Islands](200_number_of_islands/) | Medium | DFS flood fill | O(m×n) | O(m×n) |
 | 206 | [Reverse Linked List](206_reverse_linked_list/) | Easy | Iterative three pointers | O(n) | O(1) |
