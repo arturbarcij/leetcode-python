@@ -4,14 +4,14 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 
 ## Progress
 
-![Easy](https://img.shields.io/badge/Easy-8-brightgreen) ![Medium](https://img.shields.io/badge/Medium-20-yellow) ![Hard](https://img.shields.io/badge/Hard-4-red)
+![Easy](https://img.shields.io/badge/Easy-8-brightgreen) ![Medium](https://img.shields.io/badge/Medium-21-yellow) ![Hard](https://img.shields.io/badge/Hard-4-red)
 
 | Difficulty | Count |
 |------------|-------|
 | Easy       | 8     |
-| Medium     | 20    |
+| Medium     | 21    |
 | Hard       | 4     |
-| **Total**  | **32** |
+| **Total**  | **33** |
 
 ## Problems
 
@@ -46,6 +46,7 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 | 310 | [Minimum Height Trees](310_minimum_height_trees/) | Medium | Leaf trimming / BFS | O(n) | O(n) |
 | 322 | [Coin Change](322_coin_change/) | Medium | Dynamic programming (tabulation) | O(n×m) | O(n) |
 | 438 | [Find All Anagrams in a String](432_find_all_anagrams_in_a_string/) | Medium | Sliding window | O(n) | O(1) |
+| 621 | [Task Scheduler](621_task_scheduler/) | Medium | Greedy + counting | O(n) | O(1) |
 | 721 | [Accounts Merge](721_accounts_merge/) | Medium | Union-Find (DSU) | O(n log n) | O(n) |
 | 733 | [Flood Fill](733_flood_fill/) | Easy | DFS in-place | O(m×n) | O(m×n) |
 | 1235 | [Maximum Profit in Job Scheduling](1235_maximum_profit_in_job_scheduling/) | Hard | DP + Binary search | O(n log n) | O(n) |
