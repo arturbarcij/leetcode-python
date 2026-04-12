@@ -4,14 +4,14 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 
 ## Progress
 
-![Easy](https://img.shields.io/badge/Easy-10-brightgreen) ![Medium](https://img.shields.io/badge/Medium-22-yellow) ![Hard](https://img.shields.io/badge/Hard-4-red)
+![Easy](https://img.shields.io/badge/Easy-11-brightgreen) ![Medium](https://img.shields.io/badge/Medium-22-yellow) ![Hard](https://img.shields.io/badge/Hard-7-red)
 
 | Difficulty | Count |
 |------------|-------|
-| Easy       | 10    |
+| Easy       | 11    |
 | Medium     | 22    |
-| Hard       | 4     |
-| **Total**  | **36** |
+| Hard       | 7     |
+| **Total**  | **40** |
 
 ## Problems
 
@@ -32,6 +32,9 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 | 104 | [Maximum Depth of Binary Tree](104_maximum_depth_of_binary_tree/) | Easy | DFS recursion | O(n) | O(n) |
 | 105 | [Construct Binary Tree from Preorder and Inorder](105_construct_binary_tree_from_preorder_and_inorder_traversal/) | Medium | Divide and conquer | O(n) | O(n) |
 | 110 | [Balanced Binary Tree](110_balanced_binary_tree/) | Easy | DFS with sentinel | O(n) | O(n) |
+| 121 | [Best Time to Buy and Sell Stock](121_best_time_to_buy_and_sell_stock/) | Easy | Greedy / sliding min | O(n) | O(1) |
+| 125 | [Valid Palindrome](125_valid_palindrome/) | Easy | Two pointers / regex | O(n) | O(n) |
+| 127 | [Word Ladder](127_word_ladder/) | Hard | BFS | O(n×m×26) | O(n) |
 | 199 | [Binary Tree Right Side View](199_binary_tree_right_side_view/) | Medium | BFS level order | O(n) | O(n) |
 | 200 | [Number of Islands](200_number_of_islands/) | Medium | DFS flood fill | O(m×n) | O(m×n) |
 | 206 | [Reverse Linked List](206_reverse_linked_list/) | Easy | Iterative three pointers | O(n) | O(1) |
@@ -52,4 +55,5 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 | 621 | [Task Scheduler](621_task_scheduler/) | Medium | Greedy + counting | O(n) | O(1) |
 | 721 | [Accounts Merge](721_accounts_merge/) | Medium | Union-Find (DSU) | O(n log n) | O(n) |
 | 733 | [Flood Fill](733_flood_fill/) | Easy | DFS in-place | O(m×n) | O(m×n) |
+| 973 | [K Closest Points to Origin](973_k_closest_points_to_origin/) | Medium | Sort by distance | O(n log n) | O(1) |
 | 1235 | [Maximum Profit in Job Scheduling](1235_maximum_profit_in_job_scheduling/) | Hard | DP + Binary search | O(n log n) | O(n) |
