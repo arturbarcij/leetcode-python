@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python test_main.py)",
+      "Bash(mv main.py solution.py)",
+      "Bash(mv test_main.py main.py)",
+      "WebSearch",
+      "Bash(python -c ':*)",
+      "Bash(mkdir -p \"c:\\\\Users\\\\artur\\\\IdeaProjects\\\\Python\\\\leetcode-python\\\\121_best_time_to_buy_and_sell_stock\")",
+      "Bash(touch \"c:\\\\Users\\\\artur\\\\IdeaProjects\\\\Python\\\\leetcode-python\\\\121_best_time_to_buy_and_sell_stock\\\\main.py\")",
+      "Bash(mkdir -p \"c:\\\\Users\\\\artur\\\\IdeaProjects\\\\Python\\\\leetcode-python\\\\127_word_ladder\")",
+      "Bash(touch \"c:\\\\Users\\\\artur\\\\IdeaProjects\\\\Python\\\\leetcode-python\\\\127_word_ladder\\\\main.py\")"
+    ]
+  }
+}
