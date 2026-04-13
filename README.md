@@ -4,19 +4,20 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 
 ## Progress
 
-![Easy](https://img.shields.io/badge/Easy-11-brightgreen) ![Medium](https://img.shields.io/badge/Medium-22-yellow) ![Hard](https://img.shields.io/badge/Hard-7-red)
+![Easy](https://img.shields.io/badge/Easy-12-brightgreen) ![Medium](https://img.shields.io/badge/Medium-22-yellow) ![Hard](https://img.shields.io/badge/Hard-7-red)
 
 | Difficulty | Count |
 |------------|-------|
-| Easy       | 11    |
+| Easy       | 12    |
 | Medium     | 22    |
 | Hard       | 7     |
-| **Total**  | **40** |
+| **Total**  | **41** |
 
 ## Problems
 
 | # | Problem | Difficulty | Pattern | Time | Space |
 |---|---------|------------|---------|------|-------|
+| 1 | [Two Sum](1_two_sum/) | Easy | Hash map | O(n) | O(n) |
 | 54 | [Spiral Matrix](54_spiral_matrix/) | Medium | Boundary shrinking | O(m×n) | O(1) |
 | 56 | [Merge Intervals](56_merge_intervals/) | Medium | Sort + greedy | O(n log n) | O(n) |
 | 57 | [Insert Interval](57_insert_intervals/) | Medium | Three-case single pass | O(n) | O(n) |
