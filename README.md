@@ -4,14 +4,14 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 
 ## Progress
 
-![Easy](https://img.shields.io/badge/Easy-12-brightgreen) ![Medium](https://img.shields.io/badge/Medium-22-yellow) ![Hard](https://img.shields.io/badge/Hard-7-red)
+![Easy](https://img.shields.io/badge/Easy-13-brightgreen) ![Medium](https://img.shields.io/badge/Medium-22-yellow) ![Hard](https://img.shields.io/badge/Hard-7-red)
 
 | Difficulty | Count |
 |------------|-------|
-| Easy       | 12    |
+| Easy       | 13    |
 | Medium     | 22    |
 | Hard       | 7     |
-| **Total**  | **41** |
+| **Total**  | **42** |
 
 ## Problems
 
@@ -58,3 +58,4 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 | 733 | [Flood Fill](733_flood_fill/) | Easy | DFS in-place | O(m×n) | O(m×n) |
 | 973 | [K Closest Points to Origin](973_k_closest_points_to_origin/) | Medium | Sort by distance | O(n log n) | O(1) |
 | 1235 | [Maximum Profit in Job Scheduling](1235_maximum_profit_in_job_scheduling/) | Hard | DP + Binary search | O(n log n) | O(n) |
+| 1848 | [Minimum Distance to the Target Element](1848_minimum_distance_to_the_target_element/) | Easy | Linear scan | O(n) | O(1) |
