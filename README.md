@@ -4,14 +4,14 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 
 ## Progress
 
-![Easy](https://img.shields.io/badge/Easy-13-brightgreen) ![Medium](https://img.shields.io/badge/Medium-22-yellow) ![Hard](https://img.shields.io/badge/Hard-7-red)
+![Easy](https://img.shields.io/badge/Easy-14-brightgreen) ![Medium](https://img.shields.io/badge/Medium-22-yellow) ![Hard](https://img.shields.io/badge/Hard-7-red)
 
 | Difficulty | Count |
 |------------|-------|
-| Easy       | 13    |
+| Easy       | 14    |
 | Medium     | 22    |
 | Hard       | 7     |
-| **Total**  | **42** |
+| **Total**  | **43** |
 
 ## Problems
 
@@ -59,3 +59,4 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 | 973 | [K Closest Points to Origin](973_k_closest_points_to_origin/) | Medium | Sort by distance | O(n log n) | O(1) |
 | 1235 | [Maximum Profit in Job Scheduling](1235_maximum_profit_in_job_scheduling/) | Hard | DP + Binary search | O(n log n) | O(n) |
 | 1848 | [Minimum Distance to the Target Element](1848_minimum_distance_to_the_target_element/) | Easy | Linear scan | O(n) | O(1) |
+| 2515 | [Shortest Distance to Target String in a Circular Array](2515_shortest_distance_to_target_string_in_a_circular_array/) | Easy | Linear scan + circular distance | O(n) | O(1) |
