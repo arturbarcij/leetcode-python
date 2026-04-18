@@ -4,14 +4,14 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 
 ## Progress
 
-![Easy](https://img.shields.io/badge/Easy-14-brightgreen) ![Medium](https://img.shields.io/badge/Medium-23-yellow) ![Hard](https://img.shields.io/badge/Hard-7-red)
+![Easy](https://img.shields.io/badge/Easy-14-brightgreen) ![Medium](https://img.shields.io/badge/Medium-24-yellow) ![Hard](https://img.shields.io/badge/Hard-7-red)
 
 | Difficulty | Count |
 |------------|-------|
 | Easy       | 14    |
-| Medium     | 23    |
+| Medium     | 24    |
 | Hard       | 7     |
-| **Total**  | **44** |
+| **Total**  | **45** |
 
 ## Problems
 
@@ -61,3 +61,4 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 | 1848 | [Minimum Distance to the Target Element](1848_minimum_distance_to_the_target_element/) | Easy | Linear scan | O(n) | O(1) |
 | 2515 | [Shortest Distance to Target String in a Circular Array](2515_shortest_distance_to_target_string_in_a_circular_array/) | Easy | Linear scan + circular distance | O(n) | O(1) |
 | 3488 | [Closest Equal Element Queries](3488_closest_equal_element_queries/) | Medium | Hash map + binary search | O(n log n) | O(n) |
+| 3761 | [Minimum Absolute Distance Between Mirror Pairs](3761_minimum_absolute_distance_between_mirror_pairs/) | Medium | Hash map + binary search | O(n log n) | O(n) |
