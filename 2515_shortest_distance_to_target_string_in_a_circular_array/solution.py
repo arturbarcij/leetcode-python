@@ -18,5 +18,5 @@ class Solution:
             
                 min_distance = min(left_distance, right_distance, min_distance)
 
-        return min_distance
+        return int(min_distance)
                     
