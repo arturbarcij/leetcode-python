@@ -12,7 +12,7 @@ class Solution:
             prefix_max.append(max(prefix_max[-1], nums[i]))
         
         for j in range(n-2, -1, -1):
-            suffix_min.append(min(suffix_min[j+1], nums[j]))
+            suffix_min[j] = min(suffix_min[j+1], nums[j])
         
         for i in range(n):
             score = prefix_max[i] - suffix_min[i]
