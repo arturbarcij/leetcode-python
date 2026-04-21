@@ -4,14 +4,14 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 
 ## Progress
 
-![Easy](https://img.shields.io/badge/Easy-15-brightgreen) ![Medium](https://img.shields.io/badge/Medium-27-yellow) ![Hard](https://img.shields.io/badge/Hard-7-red)
+![Easy](https://img.shields.io/badge/Easy-15-brightgreen) ![Medium](https://img.shields.io/badge/Medium-27-yellow) ![Hard](https://img.shields.io/badge/Hard-8-red)
 
 | Difficulty | Count |
 |------------|-------|
 | Easy       | 15    |
 | Medium     | 27    |
-| Hard       | 7     |
-| **Total**  | **49** |
+| Hard       | 8     |
+| **Total**  | **50** |
 
 ## Problems
 
@@ -65,4 +65,5 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 | 3783 | [Mirror Distance of an Integer](3783_mirror_distance_of_an_integer/) | Easy | String reversal | O(d) | O(d) |
 | 3904 | [Smallest Stable Index II](3904_smallest_stable_index_ii/) | Medium | Prefix max + suffix min | O(n) | O(n) |
 | 3905 | [Multi Source Flood Fills](3905_multi_source_flood_fills/) | Medium | Multi-source BFS + sort by color desc | O(n×m) | O(n×m) |
+| 3906 | [Count Good Integers on a Grid Path](3906_count_good_integers_on_a_grid_path/) | Hard | Digit DP + path precomputation | O(16×10×2) | O(16×10×2) |
 | 3761 | [Minimum Absolute Distance Between Mirror Pairs](3761_minimum_absolute_distance_between_mirror_pairs/) | Medium | Hash map + binary search | O(n log n) | O(n) |
