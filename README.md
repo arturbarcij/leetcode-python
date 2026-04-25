@@ -4,14 +4,14 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 
 ## Progress
 
-![Easy](https://img.shields.io/badge/Easy-15-brightgreen) ![Medium](https://img.shields.io/badge/Medium-27-yellow) ![Hard](https://img.shields.io/badge/Hard-8-red)
+![Easy](https://img.shields.io/badge/Easy-16-brightgreen) ![Medium](https://img.shields.io/badge/Medium-29-yellow) ![Hard](https://img.shields.io/badge/Hard-8-red)
 
 | Difficulty | Count |
 |------------|-------|
-| Easy       | 15    |
-| Medium     | 27    |
+| Easy       | 16    |
+| Medium     | 29    |
 | Hard       | 8     |
-| **Total**  | **50** |
+| **Total**  | **53** |
 
 ## Problems
 
@@ -63,6 +63,9 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 | 3488 | [Closest Equal Element Queries](3488_closest_equal_element_queries/) | Medium | Hash map + binary search | O(n log n) | O(n) |
 | 1855 | [Maximum Distance Between a Pair of Values](1855_Maximum_Distance_Between_a_Pair_of_Values/) | Medium | Binary search on negated array | O(n log n) | O(n) |
 | 3783 | [Mirror Distance of an Integer](3783_mirror_distance_of_an_integer/) | Easy | String reversal | O(d) | O(d) |
+| 3898 | [Find the Degree of Each Vertex](3898_Find_the_Degree_of_Each_Vertex/) | Easy | Row sum | O(n²) | O(n) |
+| 3899 | [Angles of a Triangle](3899_Angles_of_a_Triangle/) | Medium | Heron's formula + law of cosines | O(1) | O(1) |
+| 3900 | [Longest Balanced Substring After One Swap](3900_Longest_Balanced_Substring_After_One_Swap/) | Medium | Prefix sum + deque | O(n) | O(n) |
 | 3904 | [Smallest Stable Index II](3904_smallest_stable_index_ii/) | Medium | Prefix max + suffix min | O(n) | O(n) |
 | 3905 | [Multi Source Flood Fills](3905_multi_source_flood_fills/) | Medium | Multi-source BFS + sort by color desc | O(n×m) | O(n×m) |
 | 3906 | [Count Good Integers on a Grid Path](3906_count_good_integers_on_a_grid_path/) | Hard | Digit DP + path precomputation | O(16×10×2) | O(16×10×2) |
