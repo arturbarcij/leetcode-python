@@ -4,14 +4,14 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 
 ## Progress
 
-![Easy](https://img.shields.io/badge/Easy-17-brightgreen) ![Medium](https://img.shields.io/badge/Medium-29-yellow) ![Hard](https://img.shields.io/badge/Hard-8-red)
+![Easy](https://img.shields.io/badge/Easy-17-brightgreen) ![Medium](https://img.shields.io/badge/Medium-30-yellow) ![Hard](https://img.shields.io/badge/Hard-8-red)
 
 | Difficulty | Count |
 |------------|-------|
 | Easy       | 17    |
-| Medium     | 29    |
+| Medium     | 30    |
 | Hard       | 8     |
-| **Total**  | **54** |
+| **Total**  | **55** |
 
 ## Problems
 
@@ -70,4 +70,5 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 | 3905 | [Multi Source Flood Fills](3905_multi_source_flood_fills/) | Medium | Multi-source BFS + sort by color desc | O(n×m) | O(n×m) |
 | 3906 | [Count Good Integers on a Grid Path](3906_count_good_integers_on_a_grid_path/) | Hard | Digit DP + path precomputation | O(16×10×2) | O(16×10×2) |
 | 3740 | [Minimum Distance Between Three Equal Elements I](3740_Minimum_Distance_Between_Three_Equal_Elements_I/) | Easy | Brute force triple loop | O(n³) | O(1) |
+| 3741 | [Minimum Distance Between Three Equal Elements II](3741_Minimum_Distance_Between_Three_Equal_Elements_II/) | Medium | Hash map + consecutive triples | O(n) | O(n) |
 | 3761 | [Minimum Absolute Distance Between Mirror Pairs](3761_minimum_absolute_distance_between_mirror_pairs/) | Medium | Hash map + binary search | O(n log n) | O(n) |
