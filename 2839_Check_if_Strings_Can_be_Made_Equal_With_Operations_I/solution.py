@@ -1,3 +1,3 @@
 class Solution:
     def canBeEqual(self, s1: str, s2: str) -> bool:
-        #easy problem
+        for i in range()
