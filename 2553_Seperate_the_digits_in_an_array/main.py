@@ -1,18 +1,13 @@
-from typing import List
+from solution import Solution
 
-class Solution:
-    def separateDigits(self, nums: List[int]) -> List[int]:
-        answer = []
-    
-        for num in nums:
-            digits = []
-            while num > 0:
-                digit = num % 10
-                digits.append(digit)
-                num //= 10 
-            
-            
-            
-            answer.extend(digits[::-1])
-        
-        return answer
+s = Solution()
+
+tests = [
+    ([13,25,83,77], [1,3,2,5,8,3,7,7]),
+    ([7,1,3,9], [7,1,3,9])
+    ]
+
+for numbers, expected in tests:
+    got = s.separateDigits(numbers)
+    status = "PASS" if got == expected else "FAIL"
+    print(f" status: {status} | numbers: {numbers} | got: {got}")

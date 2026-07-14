@@ -1,14 +1,15 @@
-class Solution:
-    def alternateDigitSum(self, n: int) -> int:
-        digits = str(n)
-        ans = 0
-        
-        for i in enumerate(digits):
-            digit = int(i[1])
-            if i[0] % 2 == 0:
-                ans += digit
-            else:
-                ans += -digit
-        
-        return ans
-        
+from solution import Solution
+
+s = Solution()
+
+tests = [
+    (521, 4),
+    (111, 1),
+    (886996, 0)
+    ]
+
+
+for input, expected in tests:
+    got = s.alternateDigitSum(input)
+    status = "PASS" if got == expected else "FAIL"
+    print(f"status:{status} | input:{input} | expected:{expected} | got:{got}")

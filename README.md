@@ -4,14 +4,14 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 
 ## Progress
 
-![Easy](https://img.shields.io/badge/Easy-17-brightgreen) ![Medium](https://img.shields.io/badge/Medium-30-yellow) ![Hard](https://img.shields.io/badge/Hard-8-red)
+![Easy](https://img.shields.io/badge/Easy-27-brightgreen) ![Medium](https://img.shields.io/badge/Medium-35-yellow) ![Hard](https://img.shields.io/badge/Hard-6-red)
 
 | Difficulty | Count |
 |------------|-------|
-| Easy       | 17    |
-| Medium     | 30    |
-| Hard       | 8     |
-| **Total**  | **55** |
+| Easy       | 27    |
+| Medium     | 35    |
+| Hard       | 6     |
+| **Total**  | **68** |
 
 ## Problems
 
@@ -36,6 +36,7 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 | 121 | [Best Time to Buy and Sell Stock](121_best_time_to_buy_and_sell_stock/) | Easy | Greedy / sliding min | O(n) | O(1) |
 | 125 | [Valid Palindrome](125_valid_palindrome/) | Easy | Two pointers / regex | O(n) | O(n) |
 | 127 | [Word Ladder](127_word_ladder/) | Hard | BFS | O(n×m×26) | O(n) |
+| 151 | [Reverse Words in a String](151_reverse_words_in_a_string/) | Medium | Reverse buffer + join | O(n) | O(n) |
 | 199 | [Binary Tree Right Side View](199_binary_tree_right_side_view/) | Medium | BFS level order | O(n) | O(n) |
 | 200 | [Number of Islands](200_number_of_islands/) | Medium | DFS flood fill | O(m×n) | O(m×n) |
 | 206 | [Reverse Linked List](206_reverse_linked_list/) | Easy | Iterative three pointers | O(n) | O(1) |
@@ -52,23 +53,35 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 | 242 | [Valid Anagram](242_valid_anagram/) | Easy | Hash map (Counter) | O(n) | O(n) |
 | 310 | [Minimum Height Trees](310_minimum_height_trees/) | Medium | Leaf trimming / BFS | O(n) | O(n) |
 | 322 | [Coin Change](322_coin_change/) | Medium | Dynamic programming (tabulation) | O(n×m) | O(n) |
+| 334 | [Increasing Triplet Subsequence](334_Increasing_Triplet_Subsequence/) | Medium | Greedy two-tracker | O(n) | O(1) |
 | 438 | [Find All Anagrams in a String](432_find_all_anagrams_in_a_string/) | Medium | Sliding window | O(n) | O(1) |
 | 621 | [Task Scheduler](621_task_scheduler/) | Medium | Greedy + counting | O(n) | O(1) |
 | 721 | [Accounts Merge](721_accounts_merge/) | Medium | Union-Find (DSU) | O(n log n) | O(n) |
 | 733 | [Flood Fill](733_flood_fill/) | Easy | DFS in-place | O(m×n) | O(m×n) |
 | 973 | [K Closest Points to Origin](973_k_closest_points_to_origin/) | Medium | Sort by distance | O(n log n) | O(1) |
 | 1235 | [Maximum Profit in Job Scheduling](1235_maximum_profit_in_job_scheduling/) | Hard | DP + Binary search | O(n log n) | O(n) |
+| 1291 | [Sequential Digits](1291_Sequential_Digits/) | Medium | Substring generation | O(1) | O(1) |
+| 1331 | [Rank Transform of an Array](1331_Rank_Transform_of_an_Array/) | Easy | Sort + hash map | O(n log n) | O(n) |
 | 1848 | [Minimum Distance to the Target Element](1848_minimum_distance_to_the_target_element/) | Easy | Linear scan | O(n) | O(1) |
-| 2515 | [Shortest Distance to Target String in a Circular Array](2515_shortest_distance_to_target_string_in_a_circular_array/) | Easy | Linear scan + circular distance | O(n) | O(1) |
-| 3488 | [Closest Equal Element Queries](3488_closest_equal_element_queries/) | Medium | Hash map + binary search | O(n log n) | O(n) |
 | 1855 | [Maximum Distance Between a Pair of Values](1855_Maximum_Distance_Between_a_Pair_of_Values/) | Medium | Binary search on negated array | O(n log n) | O(n) |
+| 2078 | [Two Furthest Houses With Different Colors](2078_Two_Furthest_Houses_With_Different_Colors/) | Easy | Brute force nested loop | O(n²) | O(1) |
+| 2180 | [Count Integers With Even Digit Sum](2180_Count_Integers_With_Even_Digit_Sum/) | Easy | Brute force digit sum | O(n×d) | O(1) |
+| 2515 | [Shortest Distance to Target String in a Circular Array](2515_shortest_distance_to_target_string_in_a_circular_array/) | Easy | Linear scan + circular distance | O(n) | O(1) |
+| 2544 | [Alternating Digit Sum](2544_Alternating_Digit_Sum/) | Easy | Digit iteration with sign | O(d) | O(1) |
+| 2553 | [Separate the Digits in an Array](2553_Seperate_the_digits_in_an_array/) | Easy | Digit extraction | O(n×d) | O(n×d) |
+| 2833 | [Furthest Point From Origin](2833_Furthest_Point_From_Origin/) | Easy | Counting | O(n) | O(1) |
+| 2839 | [Check if Strings Can be Made Equal With Operations I](2839_Check_if_Strings_Can_be_Made_Equal_With_Operations_I/) | Easy | Parity grouping | O(1) | O(1) |
+| 3488 | [Closest Equal Element Queries](3488_closest_equal_element_queries/) | Medium | Hash map + binary search | O(n log n) | O(n) |
+| 3740 | [Minimum Distance Between Three Equal Elements I](3740_Minimum_Distance_Between_Three_Equal_Elements_I/) | Easy | Brute force triple loop | O(n³) | O(1) |
+| 3741 | [Minimum Distance Between Three Equal Elements II](3741_Minimum_Distance_Between_Three_Equal_Elements_II/) | Medium | Hash map + consecutive triples | O(n) | O(n) |
+| 3761 | [Minimum Absolute Distance Between Mirror Pairs](3761_minimum_absolute_distance_between_mirror_pairs/) | Medium | Hash map + binary search | O(n log n) | O(n) |
 | 3783 | [Mirror Distance of an Integer](3783_mirror_distance_of_an_integer/) | Easy | String reversal | O(d) | O(d) |
 | 3898 | [Find the Degree of Each Vertex](3898_Find_the_Degree_of_Each_Vertex/) | Easy | Row sum | O(n²) | O(n) |
 | 3899 | [Angles of a Triangle](3899_Angles_of_a_Triangle/) | Medium | Heron's formula + law of cosines | O(1) | O(1) |
 | 3900 | [Longest Balanced Substring After One Swap](3900_Longest_Balanced_Substring_After_One_Swap/) | Medium | Prefix sum + deque | O(n) | O(n) |
+| 3904 | [Smallest Stable Index](3904_smallest_stable_index/) | Easy | Brute force prefix max / suffix min | O(n²) | O(1) |
 | 3904 | [Smallest Stable Index II](3904_smallest_stable_index_ii/) | Medium | Prefix max + suffix min | O(n) | O(n) |
 | 3905 | [Multi Source Flood Fills](3905_multi_source_flood_fills/) | Medium | Multi-source BFS + sort by color desc | O(n×m) | O(n×m) |
 | 3906 | [Count Good Integers on a Grid Path](3906_count_good_integers_on_a_grid_path/) | Hard | Digit DP + path precomputation | O(16×10×2) | O(16×10×2) |
-| 3740 | [Minimum Distance Between Three Equal Elements I](3740_Minimum_Distance_Between_Three_Equal_Elements_I/) | Easy | Brute force triple loop | O(n³) | O(1) |
-| 3741 | [Minimum Distance Between Three Equal Elements II](3741_Minimum_Distance_Between_Three_Equal_Elements_II/) | Medium | Hash map + consecutive triples | O(n) | O(n) |
-| 3761 | [Minimum Absolute Distance Between Mirror Pairs](3761_minimum_absolute_distance_between_mirror_pairs/) | Medium | Hash map + binary search | O(n log n) | O(n) |
+| 3908 | [Valid Digit Number](3908_valid_digit_number/) | Easy | Digit scan | O(d) | O(1) |
+| 3909 | [Compare Sums of Bitonic Parts](3909_compare_sums_of_bitonic_parts/) | Medium | Binary search peak + prefix sums | O(n) | O(1) |
