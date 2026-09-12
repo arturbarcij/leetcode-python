@@ -4,20 +4,21 @@ A collection of LeetCode solutions in Python, focused on learning Data Structure
 
 ## Progress
 
-![Easy](https://img.shields.io/badge/Easy-27-brightgreen) ![Medium](https://img.shields.io/badge/Medium-35-yellow) ![Hard](https://img.shields.io/badge/Hard-6-red)
+![Easy](https://img.shields.io/badge/Easy-28-brightgreen) ![Medium](https://img.shields.io/badge/Medium-35-yellow) ![Hard](https://img.shields.io/badge/Hard-6-red)
 
 | Difficulty | Count |
 |------------|-------|
-| Easy       | 27    |
+| Easy       | 28    |
 | Medium     | 35    |
 | Hard       | 6     |
-| **Total**  | **68** |
+| **Total**  | **69** |
 
 ## Problems
 
 | # | Problem | Difficulty | Pattern | Time | Space |
 |---|---------|------------|---------|------|-------|
 | 1 | [Two Sum](1_two_sum/) | Easy | Hash map | O(n) | O(n) |
+| 20 | [Valid Parentheses](20_valid_parentheses/) | Easy | Stack | O(n) | O(n) |
 | 54 | [Spiral Matrix](54_spiral_matrix/) | Medium | Boundary shrinking | O(m×n) | O(1) |
 | 56 | [Merge Intervals](56_merge_intervals/) | Medium | Sort + greedy | O(n log n) | O(n) |
 | 57 | [Insert Interval](57_insert_intervals/) | Medium | Three-case single pass | O(n) | O(n) |
